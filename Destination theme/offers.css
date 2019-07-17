@@ -1,0 +1,242 @@
+nav{
+float: left;
+text-align: center;
+width:100%;
+
+margin-top: 60px;
+word-spacing: 100px; 
+margin-bottom: 50px;
+background-color:#070a12;
+height:120px;
+}
+
+#navtext{padding-top:50px;}
+#navlogo{padding-top:30px;}
+.navbutton{background:#fe435b;border:none; color:white; margin-left:50px; 
+  width:120px; height:120px; margin-right:100px;}
+
+
+a:link {color: grey; }
+a:visited {color: grey; }
+a:hover {color:  #fe435b; text-decoration: none; }
+a:active {color:  #fe435b; }
+
+
+
+.theactualtitle{text-align: left; margin-right:50px; color:white;font-size: 50px;}
+.theactualdesc{text-align: left; margin-right:50px; color:white;}
+
+
+
+/*******************BEACH TOP BANNER******************/
+.mastercontainer{text-align:center; background:contain; background-image: url("offers.jpg"); 
+height:500px; margin-bottom: 200px; background-position: top;}
+.thetopformbacker{}
+.topformlables{word-spacing:30px; font-size:15px; padding-top:10px;}
+.topform{background-image: url("find.jpg"); height:250px; word-spacing:30px; margin-top: 50px;}
+.topformtitle{color:white; word-spacing: 5px; padding-top:30px; font-size:35px;}
+
+fieldset{display: inline-block;}
+legend{text-align: left;}
+
+.adventuretype{color: white;}
+.adventureselect{width:270px; height:50px; background:transparent; border: solid grey; color: grey;}
+
+.desti{color: white;}
+.keywordinput{width:270px; height:50px; background:transparent; 
+  padding-left:20px; border: solid grey; color: grey;}
+
+.minprice{color: white;}
+.mininum{width:120px; height:50px; background:transparent; border: solid grey; color: grey;}
+
+.maxprice{color: white;}
+.maxium{width:120px; height:50px; background:transparent; border: solid grey; color: grey;}
+
+.formbutton{height: 50px; width:150px;background-color:#fe435b; border:none; color:white;} 
+
+#better:hover{animation:linear 0.5s buttonbetter forwards;}
+@keyframes buttonbetter{
+0%{transform:scale(1);}
+100%{transform:scale(1); box-shadow: 0px 14px 50px 8px rgba(254,154,167,1);}
+}
+/*******************BEACH TOP BANNER******************/
+
+h1{text-align: center;}
+.headeronedesc{ text-align: center; color:grey; margin-bottom: 100px; }
+
+
+
+/*************************THE MAIN OFFERS***********************/
+.paris{}
+.parisdesc{padding-top:50px;}
+.paristitle{color: #fe435b; margin-bottom:50px;}
+.parisgreyers{}
+#parisstars{color:gold;}
+#parisgreystars{color:grey;}
+.parisbulk{color:grey;}
+.parisreader{color:#fe435b; }
+#nightsofstars{padding-left:15px; padding-top:50px;}
+
+.terre{margin-top:50px;}
+.terredesc{padding-top:50px;}
+.terretitle{color: #fe435b; margin-bottom:50px;}
+.terregreyers{}
+#terrestars{color:gold;}
+#terresgreystars{color:grey;}
+.terrebulk{color:grey;}
+.terrereader{color:#fe435b; }
+
+.italy{margin-top:50px;}
+.italydesc{padding-top:50px;}
+.italytitle{color: #fe435b; margin-bottom:50px;}
+.italygreyers{}
+#italystars{color:gold; padding-top: 50px; animation: linear 1s starspinner 
+  infinite; transform-origin:15px 65px;}
+#italygreystars{color:grey; padding-top: 50px; animation: linear 1s starspinner 
+  infinite; transform-origin:15px 65px;}
+.italybulk{color:grey;}
+.italyreader{color:#fe435b; }
+
+.greek{margin-top:50px; margin-bottom: 50px;}
+.greekdesc{padding-top:50px;}
+.greektitle{color:#fe435b; margin-bottom:50px;}
+.greekgreyers{}
+#greekstars{color:gold;}
+#greekbulk{color:grey;}
+.greekreader{color:#fe435b; }
+
+
+.holidayimage{width:285px; height:389.906px;}
+
+
+@keyframes starspinner{
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+}
+
+/*********************NEWSLETTER*************************/
+.newsimage{width: 100%; height:350px; position: relative; 
+  z-index:0; background-image: url('newsletter.jpg'); background-size: cover; 
+  background-repeat: no-repeat; }
+.newstextbanner{position: relative; z-index:1; text-align: center; 
+  top:200px; color:white;}
+  .newsbannertitle{font-size:35px; }
+  #newssearch{height:50px; width:50px; background-color:rgba(254, 60, 82);
+   color:white; border: none;}
+  .newletterbox{height:50px; width:200px; padding-left:20px;}
+/*********************NEWSLETTER*************************/
+
+/*********************FOOTER*************************/
+footer{background-color:#3a3b44; height:400px; width:100%;}
+.footercontent{padding-top: 100px;}
+
+
+#redtags{ color:white; width:100px; height:30px; text-align:center;
+ background-color:rgba(254, 60, 82); }
+.tagstitle{font-size: 30px; margin-bottom:50px; color: #fe435b; }
+
+
+.newsdates{color:rgba(254, 60, 82); font-size:10px;}
+.newstitles{color:grey; font-size:20px;}
+#firstbrazilnews{margin-bottom: 10px;}
+.latenewstitle{font-size: 30px; margin-bottom:50px; color: #fe435b; }
+.vacationtwo{}
+
+.logofoot{width:100px; height:100px;}
+#firstfooter{color:grey;}
+.disvofoot{font-size:25px; color: #fe435b; }
+/*********************FOOTER*************************/
+.counters{color: grey; margin-left:100px; text-align: center; margin-top: 50px;}
+
+.thisguy{width:50px; }
+.bottomnumbers:hover{animation:linear theones 1s forwards;}
+@keyframes theones{
+  0%{transform: scale(0), rotate(0deg); background-color: none; 
+    border-radius: 0px; color:grey;}
+  100%{transform: scale(1.5), rotate(360deg); background-color:#fe435b; 
+    border-radius:50px; color:white;}
+}
+
+
+
+
+
+
+
+
+/***WORKINGING OF DESTINATION PICS****/
+.wrap{
+  width: 87%;
+  margin: auto;
+  padding: 0 10px;
+  background-color: rgba(255,255,255,0.9);
+  overflow: hidden;
+}
+.imageturn{
+  max-width:250px;
+  height: 350px;
+  
+}
+.col-1-4{
+  width: 300px; 
+  padding: 10px;
+  box-shadow: 
+}
+
+#boxshadowoffer:hover{animation:linear boxoffer 1s forwards ;}
+@keyframes boxoffer{
+  0%{transform: box-shadow: 0 8px 12px -6px black;}
+  100%{transform: box-shadow: 0 8px 12px -6px black;}
+}
+
+
+
+.show{
+  width: 100%;
+  height: 100%;
+  float: left;
+  border: 1px solid rgba(0,0,0,0.04);
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background: #fff;
+  display: block;
+  border-radius: 4px;
+}
+
+
+.aspect{
+  position: relative;
+  padding-bottom: 120%;
+  height: 0;
+  overflow: hidden;
+}
+
+.show .mask{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0
+}
+/***WORKINGING OF DESTINATION PICS****/
+
+
+
+.show-second img {
+  transition: all 0.3s ease-in-out;}
+.show-second .mask {
+  background-image: url(https://subtlepatterns.com/patterns/gplaypattern.png);
+  background-color: rgba(0,0,0,0.3);
+  transform: translateX(-110%);
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 0 7px #ccc;}
+.show-second:hover .mask {
+  transform: translateX(0px);} 
+.show-second:hover img {
+  transform: translateX(80%);
+  transition-delay: 0.1s;}
+

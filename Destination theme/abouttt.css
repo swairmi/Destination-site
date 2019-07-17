@@ -1,0 +1,126 @@
+nav{
+float: left;
+text-align: center;
+width:100%;
+
+margin-top: 60px;
+word-spacing: 100px; 
+margin-bottom: 50px;
+background-color:#070a12;
+height:120px;
+}
+
+#navtext{padding-top:50px;}
+#navlogo{padding-top:30px;}
+.navbutton{background:#fe435b;border:none; color:white; margin-left:50px; 
+  width:120px; height:120px; margin-right:100px;}
+
+
+a:link {color: grey; }
+a:visited {color: grey; }
+a:hover {color:  #fe435b; text-decoration: none; }
+a:active {color:  #fe435b; }
+
+/*******************BEACH TOP BANNER******************/
+.mastercontainer{text-align:center; background:contain; background-image: url("offers.jpg"); 
+height:500px; margin-bottom: 200px; background-position: top;}
+.thetopformbacker{}
+.topformlables{word-spacing:30px; font-size:15px; padding-top:10px;}
+.topform{background-image: url("find.jpg"); height:250px; word-spacing:30px; margin-top: 50px;}
+.topformtitle{color:white; word-spacing: 5px; padding-top:30px; font-size:35px;}
+
+fieldset{display: inline-block;}
+legend{text-align: left;}
+
+.adventuretype{color: white;}
+.adventureselect{width:270px; height:50px; background:transparent; border: solid grey; color: grey;}
+
+.desti{color: white;}
+.keywordinput{width:270px; height:50px; background:transparent; 
+  padding-left:20px; border: solid grey; color: grey;}
+
+.minprice{color: white;}
+.mininum{width:120px; height:50px; background:transparent; border: solid grey; color: grey;}
+
+.maxprice{color: white;}
+.maxium{width:120px; height:50px; background:transparent; border: solid grey; color: grey;}
+
+.formbutton{height: 50px; width:150px;background-color:#fe435b; border:none; color:white;} 
+
+#better:hover{animation:linear 0.5s buttonbetter forwards;}
+@keyframes buttonbetter{
+0%{transform:scale(1);}
+100%{transform:scale(1); box-shadow: 0px 14px 50px 8px rgba(254,154,167,1);}
+}
+/*******************BEACH TOP BANNER******************/
+
+
+/***********************AWARD WINNING*******************************/
+.winningwrapper{margin-bottom: 100px;}
+.winnigtitle{text-align: center; font-size:40px;}
+.winnigdesc{text-align: center; margin-bottom:100px; color:grey;}
+.winningbutton{color:white; background-color:rgba(254, 60, 82); 
+	height:50px; width:150px; border:none; margin-top:30px;}
+.winnigbulk{color:grey; word-spacing:5px; font-size:17px;}
+.winningimage{height:300px; width:550px;}
+/***********************AWARD WINNING*******************************/
+
+
+
+/**************************FUN**************************************/
+.funbacker{background-image: url('fact_background.jpg'); text-align: center; 
+color:white; height:600px; margin-bottom: 50px;}
+.funtitle{text-align: center; padding-top:80px; font-size: 40px;}
+.fundesc{text-align: center; color:grey;}
+.funbulk{text-align: center; margin-top:50px; margin-bottom: 50px;}
+
+.funvector{width:100px; height:100px; text-align:center;}
+.funnumbers{font-size:30px; margin-top: 10px;}
+.funsubtitles{color: grey;}
+/**************************FUN**************************************/
+
+
+
+
+/**************************POPULAR**************************************/
+.popularservice{text-align: center; width:100%; margin-bottom:30px;}
+.poptitle{text-align: center; font-size: 40px;}
+.popdesc{text-align: center; color:grey; margin-bottom:50px;}
+
+.popimages{width:100px; height:100px;}
+.popsubtitles{font-size: 30px;}
+.popbulk{color:grey; text-align: left;}
+
+
+/*********************NEWSLETTER*************************/
+.newsimage{width: 100%; height:350px; position: relative; 
+	z-index:0;}
+.newstextbanner{position: relative; z-index:1; text-align: center; 
+	top:200px; color:white;}
+	.newsbannertitle{font-size:35px; }
+	#newssearch{height:50px; width:50px; background-color:rgba(254, 60, 82);
+	 color:white; border: none;}
+	.newletterbox{height:50px; width:200px; padding-left:20px;}
+/*********************NEWSLETTER*************************/
+
+/*********************FOOTER*************************/
+footer{background-color:#3a3b44; height:400px; width:100%;}
+.footercontent{padding-top: 100px;}
+
+
+#redtags{ color:white; width:100px; height:30px; text-align:center;
+ background-color:rgba(254, 60, 82); }
+.tagstitle{font-size: 30px; margin-bottom:50px; color:grey;}
+
+
+.newsdates{color:rgba(254, 60, 82); font-size:10px;}
+.newstitles{color:grey; font-size:20px;}
+#firstbrazilnews{margin-bottom: 10px;}
+.latenewstitle{font-size: 30px; margin-bottom:50px; color: grey;}
+.vacationtwo{}
+
+.logofoot{width:100px; height:100px;}
+#firstfooter{color:grey;}
+.disvofoot{font-size:25px; color: grey;}
+/*********************FOOTER*************************/
+
