@@ -1,0 +1,301 @@
+nav{
+float: left;
+text-align: center;
+width:100%;
+
+margin-top: 60px;
+word-spacing: 100px; 
+margin-bottom: 50px;
+background-color:#070a12;
+height:120px;
+}
+
+#navtext{padding-top:50px;}
+#navlogo{padding-top:30px;}
+.navbutton{background:#fe435b;border:none; color:white; margin-left:50px; 
+  width:120px; height:120px; margin-right:100px;}
+
+
+a:link {color: grey; }
+a:visited {color: grey; }
+a:hover {color:  #fe435b; text-decoration: none; }
+a:active {color:  #fe435b; }
+
+/*******************NAV MENU***************************/
+
+
+
+/*******************BEACH TOP BANNER******************/
+.mastercontainer{text-align:center; background-position:top; background:contain; background-image: url("images/home.jpg"); 
+ }
+.thetopformbacker{}
+.topformlables{word-spacing:30px; font-size:15px; padding-top:10px;}
+.topform{background-image: url("images/find.jpg"); word-spacing:30px; margin-top: 50px;}
+.topformtitle{color:white; word-spacing: 5px; padding-top:30px; font-size:35px;}
+
+fieldset{display: inline-block;}
+legend{text-align: left;}
+
+.adventuretype{color: white;}
+.adventureselect{width:270px; height:50px; background:transparent; border: solid grey; color: grey;}
+
+.desti{color: white;}
+.keywordinput{width:270px; height:50px; background:transparent; 
+  padding-left:20px; border: solid grey; color: grey;}
+
+.minprice{color: white;}
+.mininum{width:120px; height:50px; background:transparent; border: solid grey; color: grey;}
+
+.maxprice{color: white;}
+.maxium{width:120px; height:50px; background:transparent; border: solid grey; color: grey;}
+
+.formbutton{height: 50px; width:150px;background-color:#fe435b; border:none; color:white;} 
+
+#better:hover{animation:linear 0.5s buttonbetter forwards;}
+@keyframes buttonbetter{
+0%{transform:scale(1);}
+100%{transform:scale(1); box-shadow: 0px 14px 50px 8px rgba(254,154,167,1);}
+}
+/*******************BEACH TOP BANNER******************/
+
+
+
+/***********************TOP HEADER***********************/
+h1{
+	font-size: 250px; letter-spacing:5px; color:orange; opacity:0.5; padding-top:200px;
+	position: relative; z-index:0; text-align: center; font-family:impact;  
+}
+.h1desc{
+	color: white; position: relative;  bottom: 200px; z-index: 1; font-size:80px;}
+.topheaderbacking{background-image: url(home.jpg); background-size:cover; width:100%; 
+	background-repeat: no-repeat; text-align:center; height:600px;}
+.firsttitle{text-align: center; font-size: 30px;}
+.firstitltebacking{text-align: center; color:orange; opacity:0.4; font-size:200px;}
+/***********************TOP HEADER***********************/
+
+
+
+
+/*******************BEACH TOP BANNER******************/
+.mastercontainer{text-align:center; height:250px; background-position: top;}
+.thetopformbacker{}
+.topformlables{word-spacing:30px; font-size:15px; padding-top:10px;}
+.topform{background-image: url("images/find.jpg"); height:250px; word-spacing:30px;}
+.topformtitle{color:white; word-spacing: 5px; padding-top:30px; font-size:35px;}
+
+fieldset{display: inline-block;}
+legend{text-align: left;}
+
+.adventuretype{color: white;}
+.adventureselect{width:270px; height:50px; background:transparent; border: solid grey; color: grey;}
+
+.desti{color: white;}
+.keywordinput{width:270px; height:50px; background:transparent; 
+  padding-left:20px; border: solid grey; color: grey;}
+
+.minprice{color: white;}
+.mininum{width:120px; height:50px; background:transparent; border: solid grey; color: grey;}
+
+.maxprice{color: white;}
+.maxium{width:120px; height:50px; background:transparent; border: solid grey; color: grey;}
+
+.formbutton{height: 50px; width:150px;background-color:#fe435b; border:none; color:white;} 
+
+#better:hover{animation:linear 0.5s buttonbetter forwards;}
+@keyframes buttonbetter{
+0%{transform:scale(1);}
+100%{transform:scale(1); box-shadow: 0px 14px 50px 8px rgba(254,154,167,1);}
+}
+/*******************BEACH TOP BANNER******************/
+
+
+/***********************TOP DESTINATIONS***********************/
+.thirddestin{margin-top:70px; width:100%; 
+margin-bottom: 50px; display:block;}
+.thirdtitle{text-align: center; font-size: 40px;}
+.thirddesc{text-align: center; color:grey;}
+
+.destinations1{background-image:url(images/top_1.jpg); background: contain; background-position: center;  background-repeat:no-repeat;
+height:350px; width:250px; background-size: 300px 400px;}
+.thirddestdesc1{color: white; text-align:left; padding-left:20px; padding-top:270px;}
+.destplace1{font-size:30px; color:white;}
+
+.destinations2{background-image:url(images/top_2.jpg); background: contain; background-position: center;  background-repeat:no-repeat;
+height:350px; width:250px; background-size: 300px 400px;}
+.thirddestdesc2{color: white; text-align:left; padding-left:20px; padding-top:270px;}
+.destplace2{font-size:30px;}
+
+.destinations3{background-image:url(images/top_3.jpg); background: contain; background-position: center;  background-repeat:no-repeat;
+height:350px; width:250px; background-size: 300px 400px;}
+.thirddestdesc3{color: white; text-align:left; padding-left:20px; padding-top:270px;}
+.destplace3{font-size:30px;}
+
+
+.destinations4{background-image:url(images/top_4.jpg); background: contain; background-position: center;  background-repeat:no-repeat;
+height:350px; width:250px; background-size: 300px 400px;}
+.thirddestdesc4{color: white; text-align:left; padding-left:20px; padding-top:270px;}
+.destplace4{font-size:30px;}
+
+
+
+#themovingone:hover{animation:linear 1s theexpand forwards; animation-delay:0.5s; display:block;}
+ @keyframes theexpand{
+	0%{transform:scale(0.6); opacity:0.6; }
+	25%{transform:scale(0.8); opacity:0.7; }
+	50%{transform:scale(1); opacity:0.8; }
+	75%{transform:scale(1.1); opacity:1; }
+	100%{transform:scale(1.2); opacity:1;
+		 }
+}
+
+
+
+
+
+/***********************TOP DESTINATIONS***********************/
+
+/*****************DEALS BANNER*****************************/
+.fourthdeals{color: white; text-align:center; 
+	 background-image:url(images/last.jpg); height:5
+800px;}
+.fourthbutton1{width:130px; height:50px; margin-bottom:50px; background-color:#131a2f; 
+	color:white; border:none; }
+.fourthbutton2{width:130px; height:50px; margin-bottom:50px; background-color:#131a2f; 
+	color:white; border:none; }
+
+.fourthbutton4{width:130px; height:50px; margin-bottom:50px; background-color:#131a2f; 
+	color:white; border:none; }
+
+
+#fourdeal1{background-color:rgba(254, 60, 82, 0.8);}
+#fourdeal2{background-color:rgba(254, 60, 82, 0.8);}
+#fourdeal3{background-color:rgba(254, 60, 82, 0.8);}
+
+.dealtopper{text-align: center;}
+.deal4onetitle{color:white; text-align: left;}
+.deal4onepercent{text-align:center; font-size:100px; }
+.deal4onedesc{}
+
+.deal4twotitle{color:white; text-align: left;}
+.deal4twopercent{text-align:center; font-size:100px;}
+.deal4twodesc{}
+
+.deal4threetitle{color:white; text-align: left;}
+.deal4threepercent{text-align:center; font-size:100px;}
+.deal4threedesc{}
+/*****************DEALS BANNER*****************************/
+
+/*********************PARROT BANNER*************************/
+.parrotbanner{background-image:url(images/about_background.jpg); background-repeat: no-repeat; background:cover; 
+	background-size:100% 100%; height:650px; margin-bottom:6 0px;}
+.parrotbantitle{text-align: center; padding-top:160px; color:white; font-size:40px;}
+.parrotbandesc{text-align: center; color:white; font-size:15px;}
+
+#loaderincircle{text-align: center; width: 100px; height:100px; margin-top: 100px;}
+.loadingcircle:hover{color: white;}
+
+
+
+
+
+
+
+
+/*********************PARROT BANNER*************************/
+
+
+/***********************IMAGE CAROSEL***********************/
+#adventpics{width:262.500px; height:197.641px; position:relative; z-index:0;}
+.populardestis{font-size: 50px;}
+.popdestidesc{color:grey; margin-bottom:40px;}
+.picenlarger:hover{animation:linear 1s theguy forwards;}
+@keyframes theguy {
+	0%{transform: scale(1); opacity:1;;}
+	100%{transform: scale(1.1); opacity:0.7;;}
+}
+
+
+.adventurebanner{text-align: left; margin-top:50px; text-align: center;}
+.adventdesc{position:relative; bottom:80px; left:20px;z-index:1; color:white; 
+	text-align:left; font-size:15px;}
+/***********************IMAGE CAROSEL***********************/
+
+
+/*********************THE CAROSEL*************************/
+.caroselpics{width:390px; height:657.281px; position:relative; z-index:0;}
+.visitingcarosel{font-size: 30px; color:white; position:relative; z-index:1; 
+bottom:600px; left:20px;}
+
+/*********************THE CAROSEL*************************/
+
+.thesvgpleasework{width:100%; height:600px; margin-bottom: 280px;}
+
+.buttonrower{margin-left:50px; top:200px; position: relative; z-index:7;}
+
+td{position:relative; z-index:0 width:100%; height:500px;}
+.siximg{position:absolute;  z-index:1; opacity: 0; width:100%; height:900px; padding-left: -200px;} 
+.fiveimg{position:absolute;  z-index:2; opacity: 0; width:100%; height:900px; padding-left: -200px;} 
+.fourimg{position:absolute; z-index:3; opacity: 0; width:100%; height:900px; padding-left: -200px;} 
+.threeimg{position:absolute;  z-index:4; opacity: 0; width:100%; height:900px; padding-left: -200px;} 
+.twoimg{position:absolute;  z-index:5; opacity: 0; width:100%; height:900px; padding-left: -200px;}
+.oneimg{position:absolute;  z-index:6; width:100%; height:900px; padding-left: -200px;}
+
+@keyframes country{
+0%{transform:opacity:0;;}
+100%{transform:opacity:1;;}}
+/*
+animation:linear 1s country forwards; 
+*/
+
+
+#theonlybuttons{position: relative; z-index: 7;bottom:30px; 
+	background:none; border-radius:50px; width:100px; height:50px; 
+	border:solid rgba(254, 60, 82); color:rgba(254, 60, 82);
+}
+@keyframes butter {
+0%{transform: : color:rgba(254, 60, 82);;}
+100%{transform: color:blue; ;}}
+#sixer{}
+#fiver{}
+#fouer{}
+#theer{}
+#twoer{}
+#sixer{}
+
+
+
+/*********************NEWSLETTER*************************/
+.newsimage{width: 100%; height:350px; position: relative; 
+	z-index:0; background-color: red;}
+.newstextbanner{position: relative; z-index:1; text-align: center; 
+	top:200px; color:white;}
+	.newsbannertitle{font-size:35px; }
+	#newssearch{height:50px; width:50px; background-color:rgba(254, 60, 82);
+	 color:white; border: none;}
+	.newletterbox{height:50px; width:200px; padding-left:20px;}
+/*********************NEWSLETTER*************************/
+
+/*********************FOOTER*************************/
+footer{background-color:#3a3b44; height:400px; width:100%;}
+.footercontent{padding-top: 100px;}
+
+
+#redtags{ color:white; width:100px; height:30px; text-align:center;
+ background-color:rgba(254, 60, 82); }
+.tagstitle{font-size: 30px; margin-bottom:50px; color:grey;}
+
+
+.newsdates{color:rgba(254, 60, 82); font-size:10px;}
+.newstitles{color:grey; font-size:20px;}
+#firstbrazilnews{margin-bottom: 10px;}
+.latenewstitle{font-size: 30px; margin-bottom:50px; color: grey;}
+.vacationtwo{}
+
+.logofoot{width:100px; height:100px;}
+#firstfooter{color:grey;}
+.disvofoot{font-size:25px; color: grey;}
+/*********************FOOTER*************************/
+
+
+#pleasework{color: red; width:50px; height:50px;}
+.changingtitles{text-align:center; position:relative; z-index:1; top:150px;}
